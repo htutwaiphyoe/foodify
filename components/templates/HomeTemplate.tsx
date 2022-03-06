@@ -4,6 +4,7 @@ import { Menu } from "components/organisms/Menu";
 import { Popular } from "components/organisms/Popular";
 import { HowItWorks } from "components/organisms/HowItWorks";
 import { Testimonials } from "components/organisms/Testimonials";
+import { ContactUs } from "components/organisms/ContactUs";
 
 export const HomeTemplate = () => {
   return (
@@ -14,6 +15,7 @@ export const HomeTemplate = () => {
       <Popular />
       <HowItWorks />
       <Testimonials />
+      <ContactUs />
     </>
   );
 };

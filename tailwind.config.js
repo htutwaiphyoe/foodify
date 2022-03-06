@@ -33,7 +33,8 @@ module.exports = {
       20: "2rem",
       18: "1.8rem",
       normal: "1.6rem",
-      sm: "1rem",
+      sm: "1.4rem",
+      xs: "1rem",
     },
     spacing: {
       0.5: "0.5rem",
@@ -57,13 +58,19 @@ module.exports = {
       1: "1rem",
       2: "2rem",
       3: "3rem",
+      3.5: "3.5rem",
       4: "4rem",
       5: "5rem",
       6: "6rem",
+      7: "7rem",
+      8: "8rem",
+      9: "9rem",
+      10: "10rem",
     },
     width: {
       full: "100%",
       25: "25rem",
+      30: "30rem",
       50: "50rem",
       70: "70rem",
       72: "72rem",
@@ -75,6 +82,7 @@ module.exports = {
     height: {
       full: "100%",
       25: "25rem",
+      40: "40rem",
       50: "50rem",
       70: "70rem",
       75: "75rem",
@@ -85,6 +93,7 @@ module.exports = {
     maxWidth: {
       20: "20rem",
       25: "25rem",
+      88: "88rem",
     },
     lineHeight: {
       1: "1",
