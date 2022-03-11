@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
+import { HomeTemplate } from "components/templates/HomeTemplate";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <h1>Hello, Foodify</h1>
-    </div>
-  );
+  return <HomeTemplate />;
 };
 
 export default Home;
