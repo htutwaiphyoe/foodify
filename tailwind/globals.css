@@ -15,8 +15,8 @@
   .hero-bg {
     background-image: linear-gradient(
         to right bottom,
-        rgba(1, 1, 1, 0.6),
-        rgba(1, 1, 1, 0.6)
+        rgba(1, 1, 1, 0.7),
+        rgba(1, 1, 1, 0.7)
       ),
       url("../public/assets/hero/bg.png");
   }

@@ -31,6 +31,11 @@ module.exports = {
       3: "3rem",
       4: "4rem",
       5: "5rem",
+      6: "6rem",
+      7: "7rem",
+      8: "8rem",
+      9: "9rem",
+      10: "10rem",
     },
     borderWidth: {
       1: "1px",
@@ -41,6 +46,14 @@ module.exports = {
       3: "3rem",
       4: "4rem",
       5: "5rem",
+    },
+    width: {
+      80: "80rem",
+    },
+    lineHeight: {
+      1: "1",
+      1.2: "1.2",
+      1: "1",
     },
   },
   plugins: [],
