@@ -11,6 +11,12 @@ module.exports = {
         gray: "#E5E5E5",
         placeholder: "#AFB5BF",
       },
+      gridTemplateRows: {
+        8: "repeat(8, 9rem)",
+      },
+      gridRowEnd: {
+        9: "9",
+      },
     },
     container: {
       center: true,
@@ -52,6 +58,7 @@ module.exports = {
       5: "5rem",
     },
     width: {
+      full: "100%",
       50: "50rem",
       80: "80rem",
     },
