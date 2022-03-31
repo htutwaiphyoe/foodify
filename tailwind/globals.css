@@ -7,7 +7,7 @@
     font-size: 62.5%;
   }
   body {
-    @apply antialiased font-rubik scroll-smooth;
+    @apply antialiased text-black font-rubik scroll-smooth text-normal;
   }
 }
 
