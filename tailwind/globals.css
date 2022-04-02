@@ -7,6 +7,17 @@
     font-size: 62.5%;
   }
   body {
-    @apply font-rubik scroll-smooth antialiased;
+    @apply antialiased font-rubik scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .hero-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(1, 1, 1, 0.7),
+        rgba(1, 1, 1, 0.7)
+      ),
+      url("../public/assets/hero/bg.png");
   }
 }
