@@ -10,12 +10,12 @@ export const Navigation = () => {
       </ul>
       <ul className="flex justify-center gap-2">
         <li>
-          <button className="px-3 py-1 bg-transparent rounded-full border-1 text-normal border-primary text-primary">
+          <button className="px-3 py-1 bg-transparent rounded-10 border-1 text-normal border-primary text-primary">
             Sign in
           </button>
         </li>
         <li>
-          <button className="px-3 py-1 text-white rounded-full bg-primary border-1 text-normal border-primary">
+          <button className="px-3 py-1 text-white rounded-10 bg-primary border-1 text-normal border-primary">
             Sign up
           </button>
         </li>

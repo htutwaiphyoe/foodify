@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         primary: "#FF9900",
         secondary: "#FFF6E9",
+        yellow: "#FFCB45",
         light: "#F8F8F8",
         black: "#010101",
         white: "#FFFFFF",
@@ -30,6 +31,7 @@ module.exports = {
       lg: "3.6rem",
       md: "2.4rem",
       20: "2rem",
+      18: "1.8rem",
       normal: "1.6rem",
       sm: "1rem",
     },
@@ -51,6 +53,7 @@ module.exports = {
       1: "1px",
     },
     gap: {
+      0.5: ".5rem",
       1: "1rem",
       2: "2rem",
       3: "3rem",
@@ -62,10 +65,22 @@ module.exports = {
       50: "50rem",
       80: "80rem",
     },
+    maxWidth: {
+      20: "20rem",
+    },
     lineHeight: {
       1: "1",
       1.2: "1.2",
-      1: "1",
+      1.4: "1.4",
+      1.6: "1.6",
+    },
+    borderRadius: {
+      1: "1rem",
+      3: "3rem",
+      4.5: "4.5rem",
+      5: "5rem",
+      10: "10rem",
+      full: "100%",
     },
   },
   plugins: [],
