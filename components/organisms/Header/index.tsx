@@ -5,7 +5,7 @@ export const Header = (): JSX.Element => {
         <h1 className="text-xl font-bold text-white leading-1.2 mb-3">
           Order favorite meals, delivered hot and fresh to your door
         </h1>
-        <button className="px-3 py-1 text-white rounded-full bg-primary border-1 text-normal border-primary">
+        <button className="px-3 py-1 text-white rounded-10 bg-primary border-1 text-normal border-primary">
           Order now
         </button>
       </div>

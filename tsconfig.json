@@ -19,8 +19,8 @@
       "tailwind/*": ["tailwind/*"],
       "utils/*": ["utils/*"],
       "components/*": ["components/*"],
-      "interfaces/*": ["interfaces/*"],
-      "enums/*": ["enums/*"]
+      "types/*": ["types/*"],
+      "data/*": ["data/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
