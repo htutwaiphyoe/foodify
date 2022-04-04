@@ -62,11 +62,27 @@ module.exports = {
     },
     width: {
       full: "100%",
+      25: "25rem",
       50: "50rem",
+      70: "70rem",
+      75: "75rem",
       80: "80rem",
+      85: "85rem",
+      90: "90rem",
+    },
+    height: {
+      full: "100%",
+      25: "25rem",
+      50: "50rem",
+      70: "70rem",
+      75: "75rem",
+      80: "80rem",
+      85: "85rem",
+      90: "90rem",
     },
     maxWidth: {
       20: "20rem",
+      25: "25rem",
     },
     lineHeight: {
       1: "1",

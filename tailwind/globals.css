@@ -21,3 +21,21 @@
       url("../public/assets/hero/bg.png");
   }
 }
+
+.swiper {
+  padding-bottom: 8rem !important;
+}
+.swiper-slide {
+  width: 250px !important;
+}
+.swiper-pagination {
+  bottom: 2.5rem !important;
+}
+.swiper-pagination-bullet {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  background-color: #f5c776 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ff9900 !important;
+}
