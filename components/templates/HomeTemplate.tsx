@@ -3,6 +3,7 @@ import { Header } from "components/organisms/Header";
 import { Menu } from "components/organisms/Menu";
 import { Popular } from "components/organisms/Popular";
 import { HowItWorks } from "components/organisms/HowItWorks";
+import { Testimonials } from "components/organisms/Testimonials";
 
 export const HomeTemplate = () => {
   return (
@@ -12,6 +13,7 @@ export const HomeTemplate = () => {
       <Menu />
       <Popular />
       <HowItWorks />
+      <Testimonials />
     </>
   );
 };

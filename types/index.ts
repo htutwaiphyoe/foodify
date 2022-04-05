@@ -13,3 +13,9 @@ export type HowItWorks = {
   description: string;
   isReversed: boolean;
 };
+
+export type Testimonial = {
+  image: string;
+  name: string;
+  review: string;
+};
