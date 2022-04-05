@@ -17,7 +17,7 @@ export const DishCard = ({
         height="200"
         src={`/assets/popular/${image}`}
         alt={name}
-        className="rounded-4.5"
+        className="rounded-4.5 object-cover"
       />
       <h3 className="my-0.5 font-semibold text-18">{name}</h3>
       <div className="flex items-center justify-center gap-0.5">
