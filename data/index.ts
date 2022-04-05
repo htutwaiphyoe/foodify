@@ -1,4 +1,4 @@
-import { PopularDish, HowItWorks } from "types";
+import { PopularDish, HowItWorks, Testimonial } from "types";
 import { Laptop, Clock, Bicycle } from "components/ui/icons";
 
 export const popularDishes: PopularDish[] = [
@@ -63,5 +63,56 @@ export const howItWorks: HowItWorks[] = [
       "We connect with the best delivery services in each town to ensure that your order is ready to your door as fast as possible.",
     Icon: Bicycle,
     isReversed: false,
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    name: "Stephen",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Stephen.png",
+  },
+  {
+    name: "Harry",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Harry.png",
+  },
+  {
+    name: "Alexa",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Alexa.png",
+  },
+  {
+    name: "Robert",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Robert.png",
+  },
+  {
+    name: "Micheal",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Micheal.png",
+  },
+  {
+    name: "Alesha",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Alesha.png",
+  },
+  {
+    name: "John",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/John.png",
+  },
+  {
+    name: "Ashley",
+    review:
+      "Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical.",
+    image: "/assets/testimonials/Ashley.png",
   },
 ];

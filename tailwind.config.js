@@ -59,6 +59,7 @@ module.exports = {
       3: "3rem",
       4: "4rem",
       5: "5rem",
+      6: "6rem",
     },
     width: {
       full: "100%",
