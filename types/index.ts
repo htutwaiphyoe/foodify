@@ -6,6 +6,13 @@ export type PopularDish = {
   price: number;
 };
 
+export type ImageProps = {
+  name: string;
+  description: string;
+  rating: number;
+  price: number;
+};
+
 export type HowItWorks = {
   image: string;
   Icon: () => JSX.Element;

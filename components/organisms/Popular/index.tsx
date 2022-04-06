@@ -23,7 +23,10 @@ export const Popular = () => {
         spaceBetween={40}
         modules={[Pagination, EffectCoverflow]}
         className="pb-4 mx-auto mt-4 w-80"
-        pagination={true}
+        pagination={{
+          dynamicBullets: true,
+          clickable: true,
+        }}
         coverflowEffect={{
           rotate: 0,
           depth: 70,

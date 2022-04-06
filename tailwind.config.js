@@ -4,8 +4,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#FF9900",
-        "primary-dark": "#e28800",
-        "primary-darker": "#b36b00",
+        "primary-dark": "#ee8f02",
+        "primary-darker": "#e08701",
         secondary: "#FFF6E9",
         yellow: "#FFCB45",
         light: "#F8F8F8",
@@ -40,6 +40,7 @@ module.exports = {
       xs: "1rem",
     },
     spacing: {
+      0: "0rem",
       0.5: "0.5rem",
       1: "1rem",
       1.6: "1.6rem",
@@ -52,6 +53,7 @@ module.exports = {
       8: "8rem",
       9: "9rem",
       10: "10rem",
+      full: "100%",
     },
     borderWidth: {
       1: "1px",
