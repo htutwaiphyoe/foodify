@@ -1,4 +1,5 @@
 import { IoSearchOutline } from "react-icons/io5";
+import { Button } from "components/atoms/Button";
 
 export const Search = () => {
   return (
@@ -14,9 +15,7 @@ export const Search = () => {
           placeholder="Explore your favorite meals..."
           className="flex-1 mx-1 outline-none"
         />
-        <button className="px-3 py-1 text-white rounded-10 bg-primary border-1 text-normal border-primary">
-          Search
-        </button>
+        <Button type="submit">Search</Button>
       </div>
     </article>
   );

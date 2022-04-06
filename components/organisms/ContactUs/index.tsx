@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "components/atoms/Button";
 
 export const ContactUs = () => {
   return (
@@ -37,9 +38,9 @@ export const ContactUs = () => {
               className="pb-1 bg-transparent outline-none border-b-1"
             />
           </div>
-          <button className="self-end px-3 py-1 text-white rounded-10 bg-primary border-1 text-normal border-primary">
-            Join now
-          </button>
+          <div className="self-end">
+            <Button type="submit">Join now</Button>
+          </div>
         </form>
         <Image
           src="/assets/contact-us/food.png"

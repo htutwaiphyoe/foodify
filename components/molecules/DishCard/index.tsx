@@ -2,6 +2,7 @@ import Image from "next/image";
 import { IoStar, IoStarHalf } from "react-icons/io5";
 import { RiShoppingCart2Fill } from "react-icons/ri";
 import { PopularDish } from "types";
+import { Button } from "components/atoms/Button";
 
 export const DishCard = ({
   image,
@@ -31,9 +32,9 @@ export const DishCard = ({
       <p className="max-w-20 leading-1.3 my-0.5">{description}</p>
       <div className="flex items-center justify-between p-1">
         <p className="font-semibold text-18">${price}</p>
-        <button className="p-1 bg-primary rounded-1">
+        <Button type="icon">
           <RiShoppingCart2Fill className="text-white text-normal" />
-        </button>
+        </Button>
       </div>
     </article>
   );

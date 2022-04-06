@@ -19,3 +19,8 @@ export type Testimonial = {
   name: string;
   review: string;
 };
+
+export type ButtonProps = {
+  type: "submit" | "icon" | "outline";
+  children: string | JSX.Element;
+};
