@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 export const Popular = () => {
   return (
-    <section className="pt-4 pb-1">
+    <div className="pt-4 pb-1">
       <div className="text-center">
         <h2 className="text-lg font-bold">Popular Dishes</h2>
         <p>We analyze the food rankings for better services</p>
@@ -39,6 +39,6 @@ export const Popular = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </div>
   );
 };

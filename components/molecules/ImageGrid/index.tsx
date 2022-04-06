@@ -4,7 +4,7 @@ import { ImageCard } from "components/molecules/ImageCard";
 export const ImageGrid = () => {
   return (
     <div className="grid grid-cols-4 grid-rows-8">
-      <figure className="relative row-start-1 row-end-5 overflow-hidden group">
+      <figure className="relative row-start-1 row-end-5 overflow-hidden group cursor-zoom-in">
         <Image
           width={360}
           height={360}
@@ -19,7 +19,7 @@ export const ImageGrid = () => {
           rating={4.6}
         />
       </figure>
-      <figure className="relative row-start-5 overflow-hidden group row-end-9">
+      <figure className="relative row-start-5 overflow-hidden group row-end-9 cursor-zoom-in">
         <Image
           width={360}
           height={360}
@@ -34,7 +34,7 @@ export const ImageGrid = () => {
           rating={4.3}
         />
       </figure>
-      <figure className="relative row-start-1 row-end-6 overflow-hidden group">
+      <figure className="relative row-start-1 row-end-6 overflow-hidden group cursor-zoom-in">
         <Image
           width={360}
           height={450}
@@ -49,7 +49,7 @@ export const ImageGrid = () => {
           rating={4.7}
         />
       </figure>
-      <figure className="relative row-start-6 overflow-hidden group row-end-9">
+      <figure className="relative row-start-6 overflow-hidden group row-end-9 cursor-zoom-in">
         <Image
           width={360}
           height={270}
@@ -64,7 +64,7 @@ export const ImageGrid = () => {
           rating={4.5}
         />
       </figure>
-      <figure className="relative row-start-1 row-end-4 overflow-hidden group">
+      <figure className="relative row-start-1 row-end-4 overflow-hidden group cursor-zoom-in">
         <Image
           width={360}
           height={270}
@@ -79,7 +79,7 @@ export const ImageGrid = () => {
           rating={4.4}
         />
       </figure>
-      <figure className="relative row-start-4 overflow-hidden row-end-9 group">
+      <figure className="relative row-start-4 overflow-hidden row-end-9 group cursor-zoom-in">
         <Image
           width={360}
           height={450}
@@ -94,7 +94,7 @@ export const ImageGrid = () => {
           rating={4.9}
         />
       </figure>
-      <figure className="relative row-start-1 overflow-hidden row-end-9 group">
+      <figure className="relative row-start-1 overflow-hidden row-end-9 group cursor-zoom-in">
         <Image
           width={360}
           height={720}
