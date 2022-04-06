@@ -1,11 +1,16 @@
 import Image from "next/image";
 import { Button } from "components/atoms/Button";
+import React from "react";
 
 export const ContactUs = () => {
+  const onSubmitHandler = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  };
+
   return (
     <section className="flex items-center justify-center p-5">
       <div className="flex items-center justify-center gap-5 p-4 bg-light rounded-5 max-w-88">
-        <form className="flex flex-col gap-3.5">
+        <form className="flex flex-col gap-3.5" onSubmit={onSubmitHandler}>
           <h2 className="text-lg font-bold leading-1.2">
             Get your first meal for free!
           </h2>
