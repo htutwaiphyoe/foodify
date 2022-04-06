@@ -6,6 +6,13 @@ export type PopularDish = {
   price: number;
 };
 
+export type ImageProps = {
+  name: string;
+  description: string;
+  rating: number;
+  price: number;
+};
+
 export type HowItWorks = {
   image: string;
   Icon: () => JSX.Element;
@@ -18,4 +25,14 @@ export type Testimonial = {
   image: string;
   name: string;
   review: string;
+};
+
+export type ButtonProps = {
+  type: "submit" | "icon" | "outline";
+  children: string | JSX.Element;
+};
+
+export type NavItem = {
+  text: string;
+  id: string;
 };

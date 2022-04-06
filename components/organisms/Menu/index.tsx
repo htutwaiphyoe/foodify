@@ -3,7 +3,7 @@ import { ImageGrid } from "components/molecules/ImageGrid";
 
 export const Menu = () => {
   return (
-    <section>
+    <section id="menu">
       <Search />
       <ImageGrid />
     </section>
