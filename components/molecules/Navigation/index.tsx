@@ -12,7 +12,6 @@ export const Navigation = () => {
 
   useEffect(() => {
     const scrollHandler = () => {
-      console.log("ok");
       if (navRef && navRef.current) {
         if (window.scrollY > navRef.current.clientHeight) {
           setIsScrolled(true);
@@ -33,12 +32,17 @@ export const Navigation = () => {
       }`}
       ref={navRef}
     >
-      <h2 className="text-lg font-bold text-primary">Foodify</h2>
-
+      <h2
+        className="text-lg font-bold cursor-pointer text-primary"
+        onClick={() => onClickHandler("header")}
+      >
+        Foodify
+      </h2>
       <Scrollspy
         items={navItems.map((navItem) => navItem.id)}
         currentClassName={isScrolled ? "border-b-2 border-primary" : ""}
         className="flex justify-center gap-4 leading-2"
+        offset={-100}
       >
         {navItems.map((navItem, i) => (
           <li
@@ -52,12 +56,11 @@ export const Navigation = () => {
           </li>
         ))}
       </Scrollspy>
-
       <ul className="flex justify-center gap-2">
-        <li>
+        <li onClick={() => onClickHandler("contact-us")}>
           <Button type="outline">Sign in</Button>
         </li>
-        <li>
+        <li onClick={() => onClickHandler("contact-us")}>
           <Button type="submit">Sign up</Button>
         </li>
       </ul>
