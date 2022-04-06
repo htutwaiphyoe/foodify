@@ -1,5 +1,12 @@
-import { PopularDish, HowItWorks, Testimonial } from "types";
+import { PopularDish, HowItWorks, Testimonial, NavItem } from "types";
 import { Laptop, Clock, Bicycle } from "components/ui/icons";
+
+export const navItems: NavItem[] = [
+  { text: "Menu", id: "menu" },
+  { text: "How it works", id: "how-it-works" },
+  { text: "Testimonials", id: "testimonials" },
+  { text: "Contact us", id: "contact-us" },
+];
 
 export const popularDishes: PopularDish[] = [
   {

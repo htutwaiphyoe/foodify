@@ -24,3 +24,8 @@ export type ButtonProps = {
   type: "submit" | "icon" | "outline";
   children: string | JSX.Element;
 };
+
+export type NavItem = {
+  text: string;
+  id: string;
+};

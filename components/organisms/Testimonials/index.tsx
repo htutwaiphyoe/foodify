@@ -2,7 +2,7 @@ import { testimonials } from "data";
 import { TestimonialCard } from "components/molecules/TestimonialCard";
 export const Testimonials = () => {
   return (
-    <section className="px-10 py-8 bg-secondary">
+    <section className="px-10 py-8 bg-secondary" id="testimonials">
       <h2 className="text-lg font-bold">Testimonials</h2>
       <p>What our customers are saying</p>
       <div className="flex flex-wrap justify-between gap-6 mt-5">

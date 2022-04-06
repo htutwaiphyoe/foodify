@@ -4,7 +4,7 @@ import { HowItWorks as HowItWorksType } from "types";
 
 export const HowItWorks = () => {
   return (
-    <section>
+    <section id="how-it-works">
       {howItWorks.map(
         ({ title, image, isReversed, description, Icon }: HowItWorksType) => (
           <article

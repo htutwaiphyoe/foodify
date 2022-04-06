@@ -5,9 +5,10 @@
 @layer base {
   html {
     font-size: 62.5%;
+    @apply scroll-smooth;
   }
   body {
-    @apply antialiased text-black font-rubik scroll-smooth text-normal;
+    @apply antialiased text-black font-rubik text-normal;
   }
 }
 
