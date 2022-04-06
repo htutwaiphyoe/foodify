@@ -55,6 +55,7 @@ module.exports = {
     },
     borderWidth: {
       1: "1px",
+      2: "2px",
     },
     gap: {
       0.5: ".5rem",
@@ -103,6 +104,7 @@ module.exports = {
       1.2: "1.2",
       1.4: "1.4",
       1.6: "1.6",
+      2: "2",
     },
     borderRadius: {
       1: "1rem",
