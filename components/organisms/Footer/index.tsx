@@ -8,7 +8,7 @@ import {
 export const Footer = () => {
   return (
     <footer>
-      <div className="flex justify-between px-8 py-5 bg-secondary">
+      <div className="grid grid-cols-1 gap-5 px-5 py-5 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 xs:px-8 xs:py-5 bg-secondary">
         <div className="max-w-20">
           <h2 className="mb-2 text-lg font-bold text-primary">Foodify</h2>
           <ul className="flex items-center gap-2">
@@ -84,9 +84,20 @@ export const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="flex items-center justify-between px-8 py-5 text-white bg-primary">
+      <div className="flex flex-wrap items-center justify-center gap-3 px-3 py-5 text-center text-white sm:px-8 bg-primary">
         <p className="font-bold">Copyright @2022 - Foodify</p>
-        <p className="font-bold">Designed and Developed by Htut Wai Phyoe</p>
+        <p className="font-bold">
+          Images credit to &nbsp;
+          <a href="https://unsplash.com/" className="underline">
+            Unsplash
+          </a>
+        </p>
+        <p className="font-bold">
+          Designed and Developed by &nbsp;
+          <a href="https://www.htutwaiphyoe.me/" className="underline">
+            Htut Wai Phyoe
+          </a>
+        </p>
       </div>
     </footer>
   );

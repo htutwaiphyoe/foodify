@@ -16,9 +16,26 @@ module.exports = {
       },
       gridTemplateRows: {
         8: "repeat(8, 9rem)",
+        16: "repeat(16, 9rem)",
+        30: "repeat(30, 9rem)",
+      },
+      gridRowStart: {
+        8: "8",
+        9: "9",
+        12: "12",
+        14: "14",
+        17: "17",
+        20: "20",
+        25: "25",
       },
       gridRowEnd: {
         9: "9",
+        12: "12",
+        14: "14",
+        17: "17",
+        20: "20",
+        25: "25",
+        33: "33",
       },
     },
     container: {
@@ -27,6 +44,17 @@ module.exports = {
     },
     fontFamily: {
       rubik: "Rubik, sans-serif",
+    },
+    screens: {
+      xxs: "320px",
+      xs: "576px",
+      sm: "768px",
+      800: "800px",
+      md: "1050px",
+      lg: "1200px",
+      xl: "1440px",
+      xxl: "1600px",
+      xxxl: "2160px",
     },
     fontSize: {
       xl: "5rem",
@@ -95,11 +123,13 @@ module.exports = {
       80: "80rem",
       85: "85rem",
       90: "90rem",
+      100: "100rem",
     },
     maxWidth: {
       20: "20rem",
       25: "25rem",
       88: "88rem",
+      144: "1440px",
     },
     lineHeight: {
       1: "1",

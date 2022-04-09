@@ -8,13 +8,16 @@ export const ContactUs = () => {
   };
 
   return (
-    <section className="flex items-center justify-center p-5" id="contact-us">
-      <div className="flex items-center justify-center gap-5 p-4 bg-light rounded-5 max-w-88">
+    <section
+      className="flex items-center justify-center p-3 sm:p-5"
+      id="contact-us"
+    >
+      <div className="flex items-center justify-center gap-5 p-3 sm:p-4 bg-light rounded-3 sm:rounded-5 max-w-88">
         <form className="flex flex-col gap-3.5" onSubmit={onSubmitHandler}>
-          <h2 className="text-lg font-bold leading-1.2">
+          <h2 className="text-md sm:text-lg font-bold leading-1.2">
             Get your first meal for free!
           </h2>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid gap-5 xs:grid-cols-2">
             <div className="flex flex-col ">
               <label htmlFor="firstName" className="text-sm">
                 First name
@@ -47,13 +50,15 @@ export const ContactUs = () => {
             <Button type="submit">Join now</Button>
           </div>
         </form>
-        <Image
-          src="/assets/contact-us/food.png"
-          alt="food table"
-          width={330}
-          height={440}
-          className="object-cover rounded-3"
-        />
+        <figure className="hidden md:block">
+          <Image
+            src="/assets/contact-us/food.png"
+            alt="food table"
+            width={330}
+            height={440}
+            className="object-cover rounded-3"
+          />
+        </figure>
       </div>
     </section>
   );

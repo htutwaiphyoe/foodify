@@ -57,9 +57,9 @@ export const howItWorks: HowItWorks[] = [
   },
   {
     image: "/assets/how-it-works/ready.png",
-    title: "Ready in 20 minutes",
+    title: "Ready in 20 mins",
     description:
-      "You're only twenty minutes away from your delicious meals ready to deliver your home. We work with the best chefs to ensure that you're 100% happy.",
+      "You're only twenty minutes away from your delicious meals ready to deliver your home. Our best chefs make ensure you're 100% happy.",
     Icon: Clock,
     isReversed: true,
   },
