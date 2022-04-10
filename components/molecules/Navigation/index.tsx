@@ -8,12 +8,11 @@ export const Navigation = () => {
   const navRef = useRef<HTMLElement>(null);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileNavShown, setIsMobileNavShown] = useState(false);
+
   const onClickHandler = (id: string) => {
     document.getElementById(id)?.scrollIntoView();
   };
-  const handleMobileNavChange = () => {
-    setIsMobileNavShown((state) => !state);
-  };
+
   useEffect(() => {
     const scrollHandler = () => {
       if (navRef && navRef.current) {
@@ -73,7 +72,7 @@ export const Navigation = () => {
         <div className="block lg:hidden">
           <RiMenu2Fill
             className="cursor-pointer text-3 text-primary"
-            onClick={handleMobileNavChange}
+            onClick={() => setIsMobileNavShown(true)}
           />
         </div>
       </nav>
@@ -85,7 +84,7 @@ export const Navigation = () => {
         <div className="flex justify-end">
           <RiCloseFill
             className="text-lg cursor-pointer"
-            onClick={handleMobileNavChange}
+            onClick={() => setIsMobileNavShown(false)}
           />
         </div>
         <div
@@ -101,7 +100,7 @@ export const Navigation = () => {
               <li
                 className={"font-semibold  cursor-pointer text-md text-black"}
                 onClick={() => {
-                  handleMobileNavChange();
+                  setIsMobileNavShown(false);
                   onClickHandler(navItem.id);
                 }}
                 key={i}
