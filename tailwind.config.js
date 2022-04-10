@@ -81,6 +81,7 @@ module.exports = {
       8: "8rem",
       9: "9rem",
       10: "10rem",
+      15: "15rem",
       full: "100%",
     },
     borderWidth: {
@@ -115,6 +116,7 @@ module.exports = {
     },
     height: {
       full: "100%",
+      0: "0rem",
       25: "25rem",
       40: "40rem",
       50: "50rem",
@@ -124,6 +126,7 @@ module.exports = {
       85: "85rem",
       90: "90rem",
       100: "100rem",
+      screen: "100vh",
     },
     maxWidth: {
       20: "20rem",
