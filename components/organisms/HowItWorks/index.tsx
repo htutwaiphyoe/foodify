@@ -14,7 +14,7 @@ export const HowItWorks = () => {
             key={title}
           >
             <figure
-              className={`overflow-hidden w-full h-40 sm:h-50 xxl:h-75 xxxl:h-100 relative ${
+              className={`overflow-hidden w-full h-40 sm:h-50 xxl:h-70 xxxl:h-80 relative ${
                 isReversed ? "sm:col-start-2" : ""
               }`}
             >
