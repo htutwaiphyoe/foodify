@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 export const Popular = () => {
   return (
     <div className="pt-4 pb-1">
-      <div className="text-center">
+      <div className="px-2 text-center">
         <h2 className="text-lg font-bold">Popular Dishes</h2>
         <p>We analyze the food rankings for better services</p>
       </div>
@@ -22,7 +22,7 @@ export const Popular = () => {
         loop={true}
         spaceBetween={40}
         modules={[Pagination, EffectCoverflow]}
-        className="pb-4 mx-auto mt-4 w-80"
+        className="pb-4 mx-auto mt-4 800:w-80"
         pagination={{
           dynamicBullets: true,
           clickable: true,

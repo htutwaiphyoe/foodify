@@ -40,3 +40,9 @@
 .swiper-pagination-bullet-active {
   background-color: #ff9900 !important;
 }
+
+@media only screen and (max-width: 319px) {
+  html {
+    font-size: 50%;
+  }
+}
