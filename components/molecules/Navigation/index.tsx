@@ -77,8 +77,8 @@ export const Navigation = () => {
         </div>
       </nav>
       <div
-        className={`fixed top-0 left-0 z-20 w-full min-h-screen p-3 transition-all duration-500 -translate-y-${
-          isMobileNavShown ? "0" : "full"
+        className={`fixed top-0 left-0 z-20 w-full min-h-screen p-3 transition-all duration-500 ${
+          isMobileNavShown ? "show" : "hide"
         } bg-secondary lg:hidden`}
       >
         <div className="flex justify-end">
